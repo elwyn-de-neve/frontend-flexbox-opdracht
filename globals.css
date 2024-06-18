@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 20px;
+}
+
+nav ul {
+    height: 64px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #383838;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    background-color: #e3e3e3;
+    color: #383838;
+}
+
+.active {
+    background-color: #e3e3e3;
+    color: #383838;
+}
+
+/* Simuleren van het uitschakelen van .active tijdens hover */
+.navbar-list:hover .active {
+    background-color: transparent;
+}
+
+/* Toepassen van hover-effect op de gehoverde link */
+.navbar-list:hover .navbar-link:hover {
+    background-color: #e3e3e3;
+}
+
+.navbar-logo p {
+    font-weight: 700;
+    color: #383838;
+}
