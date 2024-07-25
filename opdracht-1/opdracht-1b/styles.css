@@ -1,18 +1,6 @@
-.navbar {
-
-}
-
 .navbar-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 2rem
-}
-
-.navbar-item {
-
-}
-
-.navbar-link {
-
 }

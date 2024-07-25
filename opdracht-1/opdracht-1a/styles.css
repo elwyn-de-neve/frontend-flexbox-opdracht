@@ -1,15 +1,5 @@
-.navbar {
-
-}
-
 .navbar-list {
-
-}
-
-.navbar-item {
-
-}
-
-.navbar-link {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -1,0 +1,66 @@
+.navbar {
+    width: 250px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.navbar-list:nth-of-type(2) {
+    margin-top: auto;
+    justify-content: flex-end;
+}
+
+.navbar-item {
+    display: flex;
+}
+
+.navbar-link {
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    aspect-ratio: 1/1.3;
+    gap: 0.75rem;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+

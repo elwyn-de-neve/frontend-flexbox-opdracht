@@ -1,17 +1,31 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    gap:2rem;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
     gap: 1rem;
+
 }
 
 .navbar-list {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     gap: 2rem;
+}
+
+.navbar-list:nth-of-type(2) {
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-grow: 1;
+}
+
+.navbar-item {
+
+}
+
+.navbar-link {
+
 }
